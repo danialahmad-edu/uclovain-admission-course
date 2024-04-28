@@ -16,6 +16,8 @@ def reachable(adj_list, start_node):
 
     """
     # TODO
+    if not adj_list or start_node >= len(adj_list) or start_node < 0:
+        return set()
     visited = set()
     stack = [start_node]
 
