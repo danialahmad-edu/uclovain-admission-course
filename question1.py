@@ -24,13 +24,3 @@ def mat_to_list(adj_mat):
     return adj_list
 
 
-adj_mat = [[0, 1, 0, 1, 0, 0],
-           [0, 0, 1, 0, 0, 0],
-           [1, 0, 0, 0, 0, 0],
-           [0, 0, 0, 0, 1, 0],
-           [0, 0, 0, 1, 0, 0],
-           [0, 0, 0, 0, 0, 0]]
-
-
-print(mat_to_list(adj_mat))
-
